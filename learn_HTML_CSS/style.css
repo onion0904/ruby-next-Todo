@@ -1,0 +1,33 @@
+/* IDを指定する */
+#top{ width : 100% ; }
+
+/* クラスを指定する */
+.koko{ margin : 0 ; }
+
+.bold{font-weight: bold;}
+.italic{font-style: italic;}
+
+/* おすすめのサイズ */
+html { font-size : 62.5% ; }
+h1 { font-style: 4rem ; color: aliceblue;}/* 4remはルート(html)のサイズを基準に4倍される */
+h2 { font-style: 3.2rem ; color: aliceblue;}
+h3 { font-style: 2.8rem ; color: aliceblue;}
+p { font-style: 1.6rem ; color: aliceblue;}
+
+.text{
+    text-align: center;/* どこに置くかleft,right,justify(均等揃え)がある */
+}
+
+.height{
+    line-height: 24px;/* fontsizeを16pxとしたとき、残りの4px,4pxがtextの上下に空白として配置される */
+    line-height: 24;/* 単位無しがオススメらしい */
+}
+
+body{
+    background-image: url(richard-stachmann-KMjL12t8Oms-unsplash.jpg);/* https://unsplash.com/ で色んな画像を探せる */
+    background-size: cover;
+}
+
+a{
+    color: aliceblue;
+}
